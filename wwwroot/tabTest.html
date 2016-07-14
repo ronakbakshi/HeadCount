@@ -1,0 +1,85 @@
+<?php
+	require_once('auth.php');
+?>
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome | B.D Owens Library | Northwest Missouri State University</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--linking the CSS-->
+      
+
+        <link rel="stylesheet" type="text/css" href="css/homepage.css">
+		 <script src="js/tabcontent.js" type="text/javascript"></script>
+		 <link rel="stylesheet" type="text/css" href="css/tabs.css">
+        <link rel="shortcut icon" href=""/>
+
+    </head>
+    <body>
+		<ul class="tabs" data-persist="true">
+    <li class="selected"><a href="#Div1"><span>First Floor</span></a></li>
+    <li class=""><a href="#Div2"><span>Second Floor</span></a></li>
+    <li class=""><a href="#Div3"><span>Third Floor</span></a></li>
+	<li><p align="right"><a href="index.php">logout</a></p></li>
+</ul>
+        <div class="tabcontents">
+    <div id="Div1" style="display: block;">
+        
+        <div id ="fpg1">
+            <!--First Floor Text Boxes--> 
+
+            
+            <input id="iplacetxt" type="text"  />
+            <input id="techincalservicetxt" type="text"  />
+            
+            <input id="technologyassistant" type="text"  />
+            <input id="bigtables" type="text"  />
+            <input id="conferenceroom" type="text"  />
+            <input id="novelgrounds" type="text"  />
+            
+          <img id="firstfloor"  src="images/FirstFloor1.png" alt=""/>
+            
+       
+        </div>
+        </div>
+		<div id="Div2">
+		<div id = "spg">
+           <img id= "secondfloor" src="images/SecondFloor1.png" alt=""/>
+             <input id="TDC" type="text"  /> 
+              <input id="groupstudy" type="text"  />
+               <input id="writingplace" type="text"  />
+                <input id="studyarea" type="text"  />
+                
+
+        </div>
+		</div>
+		<div id="Div3" >
+		<div id = "tpg">
+
+            <img id ="thirdfloor" src="images/ThirdFloor.png" alt=""/>
+
+
+            <input id="studyplace1" type="text"  />
+            <input id="studyplace2" type="text"  />
+            <input id="studyplace3" type="text"  />
+            <input id="studyplace4" type="text"  />
+            <input id="studyplace6" type="text"  />
+            <input id="iv1" type="text"  />
+            <input id="iv2" type="text"  />
+
+        </div>
+		</div>
+        
+        
+          
+
+
+    </body>
+</html>

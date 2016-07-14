@@ -1,0 +1,184 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2016, 11:34:17 AM
+    Author     : Hari
+*/
+body {
+    background-color: #006747;
+}
+
+
+#nwmsu{
+    width: 20%;
+    position: absolute;
+    top:  10%;
+    left: 10%;
+}
+
+
+#firstfloor{
+    
+    width: 100% ;
+    z-index: -1;
+    
+    
+}
+#secondfloor{
+     position: relative;
+    width: 100% ;
+}
+#thirdfloor{
+     position: relative;
+    width: 100% ;
+}
+
+#fpg1 {
+    position: relative;
+    width: 100%;
+    
+}
+#spg{
+    position: relative;
+    width: 100%;
+}
+#tpg{
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*First Page Text Boxex*/
+
+#iplacetxt{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 4%;   
+    background-color: #white;
+}
+#techincalservicetxt{
+    position: absolute;
+    top:20%;
+    left: 30%;
+    width: 5%;   
+    background-color: white;
+   
+}
+#technologyassistant{
+    position: absolute;
+    top:  70%;
+    left: 20%;
+    width: 5%;    
+    background-color: white;
+}
+#bigtables{
+   position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 5%;  
+    background-color: white;
+}
+#conferenceroom{
+    position: absolute;
+    top: 60%;
+    left: 62%;
+    width: 5%;   
+    background-color: white;
+}
+#novelgrounds{
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    width: 5%; 
+    background-color:white;
+}
+
+/*Second Floor Text Boxes*/
+#TDC{
+    position: absolute;
+    top:  50%;
+    left: 70%;
+    width: 5%;
+    background-color: white;
+}
+#groupstudy{
+    position: absolute;
+    top:  20%;
+    left: 10%;
+    width: 5%;
+    background-color: white;
+}
+#writingplace{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    width: 3%;
+    background-color: white;
+}
+#studyarea{
+    position: absolute;
+    top:  50%;
+    right: 50%;
+    width: 3%;
+    background-color:white;
+} 
+/*Third Floor Text Boxes*/
+#studyplace2{
+    position: absolute;
+    top:  70%;
+    left: 75%;
+    width: 5%;
+    background-color: white;
+}
+#studyplace3{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    width: 3%;
+    background-color: white; 
+}
+#studyplace1{
+    position: absolute;
+    top:  20%;
+    right: 10%;
+    width: 3%;
+    background-color: white; 
+}
+#iv1{
+    position: absolute;
+    bottom:16%;
+    left: 45%;
+    width: 3%;   
+    background-color: white; 
+}
+#iv2{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 5%;   
+    background-color: white; 
+}
+#studyplace4{
+    position: absolute;
+    bottom:25%;
+    right: 50%;
+    width: 5%;
+    background-color: white;
+}
+#studyplace6{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 5%;
+    background-color: white;
+}
